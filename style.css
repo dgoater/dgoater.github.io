@@ -1,3 +1,7 @@
+body {
+	background-color: #B5ABA2;
+}
+
 #image {
 	display: flex;
 	justify-content: center;
