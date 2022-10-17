@@ -2,12 +2,12 @@ body {
 	background-color: #B5ABA2;
 }
 
-ul.cd {
-	list-style-image: url('images/CaveDs.jpg');
-	list-style-position: inside;
-}
-
 #image {
 	display: flex;
 	justify-content: space-between;
+}
+
+ul.cd {
+	list-style-image: url('images/CaveDs.jpg');
+	list-style-position: inside;
 }
