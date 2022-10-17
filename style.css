@@ -2,6 +2,15 @@ body {
 	background-color: #B5ABA2;
 }
 
+#menu {
+	display: flex;
+	justify-content:left;
+}
+
+ul.cd {
+	list-style-image: url('images/CaveDs.jpg');
+}
+
 #image {
 	display: flex;
 	justify-content: right;
