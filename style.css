@@ -9,6 +9,7 @@ body {
 
 ul.cd {
 	list-style-image: url('images/CaveDs.jpg');
+	list-style-position: inside;
 }
 
 #image {
