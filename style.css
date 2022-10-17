@@ -9,5 +9,5 @@ ul.cd {
 
 #image {
 	display: flex;
-	justify-content: right;
+	justify-content: space-between;
 }
