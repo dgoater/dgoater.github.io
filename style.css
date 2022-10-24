@@ -9,12 +9,20 @@ body {
 }
 
 ul.cd {
+	max-width: 25vw;
 	list-style-image: url('images/CaveDs.png');
-	list-style-position: inside;
+    	list-style: none;
+    	background-size: 2em;
+    	background-position: left center;
+    	background-repeat: no-repeat;
 }
 
 ul.cn {
-	list-style-image: url('images/Coral/LogoCircle.PNG');
-	list-style-position: inside;
+	max-width: 25vw;
+   	background-image: url(images/Coral/LogoCircle.PNG);
+    	list-style: none;
+    	background-size: 2em;
+    	background-position: left center;
+    	background-repeat: no-repeat;
 }
 
