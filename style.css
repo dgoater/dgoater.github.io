@@ -10,7 +10,7 @@ body {
 
 ul.cd {
 	max-width: 25vw;
-	list-style-image: url('images/CaveDs.png');
+	background-image: url('images/CaveDs.png');
     	list-style: none;
     	background-size: 2em;
     	background-position: left center;
