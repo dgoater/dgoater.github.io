@@ -26,3 +26,9 @@ ul.cn {
     	background-repeat: no-repeat;
 }
 
+img {
+	width: 25vw;
+	max-width: 500px;
+	height: auto;
+	max-height: 500px;
+}
