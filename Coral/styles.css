@@ -1,0 +1,143 @@
+* {
+  font-size: 1.5vw;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Indie Flower', sans-serif;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #555;
+  z-index: 99999;
+}
+
+#header a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+#header-img {
+  width: 30vw;
+}
+
+nav {
+  display: block;
+}
+
+nav > ul {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.section-head {
+  border-style: solid;
+  padding: 5px;
+}
+
+.section-content {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.section-footer {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  font-size: 2vw;
+}
+
+.footimg {
+  width: 15vw;
+}
+
+.circleimg {
+  width: 25vw;
+  margin: 0 5vw;
+}
+
+p {
+  width: 50vw;
+  text-align: center;
+}
+
+p.caption {
+  text-align: right;
+  margin: 0;
+}
+
+#a {
+  position: absolute;
+  left: 10vw;
+}
+
+#b {
+  position: absolute;
+  right: 10vw;
+}
+
+blockquote {
+  background: #ddd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#Pricing, #Emails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#PriceList {
+  width: 50vw;
+}
+
+@media (min-width: 942px) {
+  #PriceList {
+    width: 471px;
+  }
+}
+
+#email {
+  padding: 10px;
+  border-radius: 5px;
+  width: 25vw;
+}
+
+#submit {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: -10px;
+}
+
+#VT {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+}
